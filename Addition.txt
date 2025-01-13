@@ -1,1 +1,76 @@
 Addition of file 
+
+updated after cpmmit 
+Microsoft Windows [Version 10.0.26100.2605]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\prachi soni>git -v
+git version 2.47.1.windows.1
+
+C:\Users\prachi soni>git config
+error: no action specified
+
+C:\Users\prachi soni>git config --global user.name "Prachi7122"
+
+C:\Users\prachi soni>git config --global user.email "prachisoni7122@gmail.com"
+
+C:\Users\prachi soni>cd C:\Users\prachi soni\OneDrive\Desktop\accenture
+
+C:\Users\prachi soni\OneDrive\Desktop\accenture>md gitFolder
+
+C:\Users\prachi soni\OneDrive\Desktop\accenture>cd gitFolder
+
+C:\Users\prachi soni\OneDrive\Desktop\accenture\gitFolder>git init
+Initialized empty Git repository in C:/Users/prachi soni/OneDrive/Desktop/accenture/gitFolder/.git/
+
+C:\Users\prachi soni\OneDrive\Desktop\accenture\gitFolder>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Addition.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\prachi soni\OneDrive\Desktop\accenture\gitFolder>git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config advice.addEmptyPathspec false"
+
+C:\Users\prachi soni\OneDrive\Desktop\accenture\gitFolder>git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config advice.addEmptyPathspec false"
+
+C:\Users\prachi soni\OneDrive\Desktop\accenture\gitFolder>git add Addition.txt
+
+C:\Users\prachi soni\OneDrive\Desktop\accenture\gitFolder>git add .
+
+C:\Users\prachi soni\OneDrive\Desktop\accenture\gitFolder>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Addition.txt
+
+
+C:\Users\prachi soni\OneDrive\Desktop\accenture\gitFolder>git commit -m "commited t
+he Addition.txt file"
+[master (root-commit) 3878c81] commited the Addition.txt file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Addition.txt
+
+C:\Users\prachi soni\OneDrive\Desktop\accenture\gitFolder>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\prachi soni\OneDrive\Desktop\accenture\gitFolder>git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Addition.txt
